@@ -7,6 +7,7 @@
     height: 100vh;
     min-height: 600px;
     background-color: #f5fff2;
+    background-image: url('./src/img/header.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -32,7 +33,7 @@
         // margin: 0 auto;
         margin: 0 auto;
         font-size: 1.8rem;
-        color: #20420e;
+        color: #000000;
         opacity: .7;
 
 
@@ -59,21 +60,6 @@
 }
 
 /* ------------------------------------- */
-/* ----- Intro ----- */
-/* ------------------------------------- */
-
-.intro {
-    text-align: center;
-    background: $color-white-1;
-
-    @media(min-width: 768px) {
-        padding: 8rem 0;
-    }
-
-
-}
-
-/* ------------------------------------- */
 /* ----- About ----- */
 /* ------------------------------------- */
 
@@ -86,7 +72,7 @@
 /* ----- Projects ----- */
 /* ------------------------------------- */
 
-.craft {
+.project {
 
     background: #f5fff2;
 
@@ -144,75 +130,6 @@
         }
     }
 
-
-
-}
-
-/* ------------------------------------- */
-/* ----- Skills ----- */
-/* ------------------------------------- */
-
-.skill {
-
-    background: #f5fff2;
-
-    text-align: center;
-
-    .row {
-        max-width: 500px;
-    }
-
-    &__img {
-        display: inline-block;
-        fill: $color-black-1;
-        height: 10rem;
-        margin: 1rem 2rem;
-    }
-
-    [href^='http'] {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px dashed rgb(189, 188, 188);
-        transition: all .2s;
-
-        &:hover {
-            border-bottom: 1px dashed rgb(129, 128, 128);
-        }
-    }
-
-    .btn-text {
-        margin-top: 2rem;
-    }
-
-}
-
-/* ------------------------------------- */
-/* ----- Work ----- */
-/* ------------------------------------- */
-
-.work {
-    text-align: center;
-
-    &__construction {
-        display: block;
-        margin: 3rem auto;
-        height: 10rem;
-
-        @media (min-width: 768px) {
-            height: 20rem;
-        }
-    }
-
-    [href^='http'] {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px dashed rgb(189, 188, 188);
-        transition: all .2s;
-
-        &:hover {
-            border-bottom: 1px dashed rgb(129, 128, 128);
-        }
-    }
 }
 
 /* ------------------------------------- */
@@ -221,7 +138,7 @@
 
 .footer {
     background: #293335;
-    color: $color-white-2;
+    color: #ffffff;
     padding: 5rem 5rem 0rem 5rem;
 
     &__social-links {
@@ -252,7 +169,7 @@
             transition: all .2s;
 
             &:hover {
-                color: #c6d8d7;
+                color: #baeac4;
             }
         }
     }
@@ -295,7 +212,7 @@
             transition: all .2s;
 
             &:hover {
-                color: #f4f4f4;
+                color: #baeac4;
             }
         }
 
