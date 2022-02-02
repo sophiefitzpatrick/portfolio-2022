@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./src/img/header.jpg":[["header.a1b73ab2.jpg","J4al"],"J4al"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./main.scss");
 },{"./main.scss":"yCDU"}]},{},["Focm"], null)
-//# sourceMappingURL=sophiefitzpatrick.co.uk/portfolio-2022.865e961d.js.map
+//# sourceMappingURL=/portfolio-2022.4ffe9c87.js.map
