@@ -9,7 +9,7 @@
     
     [class^='col-'] {
         @media (min-width: 768px) {
-            width: calc(50% - #{$gutter-vertical});
+            //width: calc(50% - #{$gutter-vertical});
             float: left;
         }
     }
